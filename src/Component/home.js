@@ -2,6 +2,7 @@ import { Component } from "react";
 
 // COMPONENET
 import Feature from './feature'
+import Subscription from './subscription'
 
 const URL_HOME = 'http://localhost:3004/home'
 
@@ -28,6 +29,7 @@ componentDidMount(){
         return(
             <div>
                 <Feature  slides={this.state.home.slider}/>
+                <Subscription/>
             </div>
         )
 
