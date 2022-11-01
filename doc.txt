@@ -1,0 +1,12 @@
+npm install -g json-server
+INSTALL REACT DOM
+npm install react-router-dom@4.0.0 --save
+FOR SLICER
+npm install react-slick --save
+FOR TRANSITION/ANIMINATION
+npm install react-reaveal animate.css --save
+npm install react-transition-group@1.x --save
+
+
+OPEN ANOTHER TERMINAL FOR THE JSON SERVER
+json-server --watch db.json(ur server name) --port 3004(any port numberu want)
