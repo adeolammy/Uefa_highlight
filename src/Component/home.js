@@ -3,6 +3,8 @@ import { Component } from "react";
 // COMPONENET
 import Feature from './feature'
 import Subscription from './subscription'
+import Blocks from './blocks'
+import Poll from './poll'
 
 const URL_HOME = 'http://localhost:3004/home'
 
@@ -30,6 +32,9 @@ componentDidMount(){
             <div>
                 <Feature  slides={this.state.home.slider}/>
                 <Subscription/>
+                <Blocks  blocks={this.state.home.blocks}/>
+                <Poll />
+
             </div>
         )
 

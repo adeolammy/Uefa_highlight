@@ -9,4 +9,5 @@ npm install react-transition-group@1.x --save
 
 
 OPEN ANOTHER TERMINAL FOR THE JSON SERVER
-json-server --watch db.json(ur server name) --port 3004(any port numberu want)
+npm install -g json-server
+json-server --watch db.json --port 3004
