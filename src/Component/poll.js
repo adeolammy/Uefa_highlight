@@ -40,7 +40,7 @@ class poll extends Component {
         }
 
     renderPoll = () =>{  
-        const position  = ['ST', '2ND', '3RD']
+        const position  = ['1ST', '2ND', '3RD']
         return this.state.pollTeams.map((item,index)=>{
             return(
                 <div key={item.id} className="poll_item" onClick={()=> this.addCount(item.count, item.id)}>
