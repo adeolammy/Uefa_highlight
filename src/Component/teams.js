@@ -58,13 +58,14 @@ class Teams extends Component {
                 })
 
                     this.setState({
-                        filtered: list
+                        filtered: list,
+                        keyword 
                     })    
 
             }else{
                 this.setState({
                     filtered:this.state.teams,
-                    keyword:event.target.value
+                    keyword
                 })
             }
         }
