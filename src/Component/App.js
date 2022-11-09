@@ -5,6 +5,7 @@ import {Route, Routes } from 'react-router-dom'
 import Header from './header'
 import Footer from './footer'
 import Home from './home'
+import Teams from './teams'
 
 class App extends Component {
   render(){
@@ -15,6 +16,7 @@ class App extends Component {
         <Header/>   
         <Routes>    
              <Route exact path="/" element= {<Home/>}/> 
+             <Route exact path="/teams" element={<Teams/>}/> 
         </Routes>  
         <Footer/>   
       </>  

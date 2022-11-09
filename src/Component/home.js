@@ -6,6 +6,7 @@ import Subscription from './subscription'
 import Blocks from './blocks'
 import Poll from './poll'
 
+
 const URL_HOME = 'http://localhost:3004/home'
 
 class Home extends Component{
