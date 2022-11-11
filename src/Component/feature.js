@@ -39,7 +39,7 @@ const generateSlides = ({slides}) =>{
 }
 
 const Feature =(props) => {
-    console.log(props);
+    
     return(
         <div>
             {generateSlides(props)}

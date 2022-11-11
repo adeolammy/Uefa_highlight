@@ -15,7 +15,7 @@ class poll extends Component {
         fetch(`${URL_HOME}?poll=true&_sort=count&_order=desc`, {method: 'GET'})
         .then(response => response.json())
         .then(json =>{
-            console.log(json)
+      
             this.setState({
                 pollTeams:json 
             })
@@ -55,7 +55,7 @@ class poll extends Component {
     render() {
         return (
             <div className='home_poll'>
-                <h3>who will be the next champion</h3>
+                <h3>Who will be the next Champion ?</h3>
             <div className='poll_container'>{this.renderPoll()}</div>
             </div>
         );
